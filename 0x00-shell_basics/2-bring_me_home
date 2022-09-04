@@ -1,3 +1,6 @@
 #!/bin/bash
 cd ~
+<<<<<<< HEAD
 /alx-system_engineering-devops/0x00-shell_basics
+=======
+>>>>>>> d4827181c5c1a72d260eed776b8c6a26e57c413c
