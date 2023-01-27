@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # using while loop and if to print string
 i=0
-while [ $i -le 11 ]
+while [ $i -le 9 ]
 do
 	echo "Best School"
-	if [ $i -eq 10 ]
+	if [ $i -eq 8 ]
 	then
 		echo "Hi"
 	fi

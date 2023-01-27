@@ -2,7 +2,7 @@
 
 #looping using until
 
-i=10
+i=11
 
 until [ $i == 1 ]
 do
