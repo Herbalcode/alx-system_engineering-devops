@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# using while loop and if to print string
+i=0
+while [ $i -le 11 ]
+do
+	echo "Best School"
+	if [ $i -eq 10 ]
+	then
+		echo "Hi"
+	fi
+	((i++))
+done

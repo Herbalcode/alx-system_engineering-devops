@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+#looping using until
+
+i=10
+
+until [ $i == 1 ]
+do
+   echo "Best School"
+   i=$((i-1))
+done
