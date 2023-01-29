@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script kills a process using command kill
+ if [ "$1" == "" ]; then
+    echo "Usage: $0 process-name"
+    exit 1
+fi
+ 
+ps augx | grep "$1" | awk '{print $2}' | xargs kill
