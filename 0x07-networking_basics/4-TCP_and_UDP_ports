@@ -1,3 +1,4 @@
 #/usr/bin/env bash
 #a script that display litening ports
+
 netstat -l --program
