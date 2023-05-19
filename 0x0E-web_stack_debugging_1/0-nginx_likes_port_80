@@ -4,6 +4,9 @@
 # tool you need, start and destroy as many containers as you need to debug the
 # issue. Then, write a Bash script with the minimum number of commands to
 # automate your fix.
-
+apt-get update
+apt-get -y install curl
+rm /etc/nginx/sites-available/*
+rm /etc/nginx/sites-enabled/*~
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 sudo service nginx restart
